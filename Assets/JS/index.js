@@ -8,6 +8,9 @@ const Modal = {
     }
 }
 
+const button_cancel = document.getElementById('button_cancel')
+button_cancel.addEventListener("click", () => {Modal.close()})
+
 const storage = {
 
     get() {
